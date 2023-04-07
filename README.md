@@ -33,7 +33,7 @@ the `Exchange` button is used to change between `Fahrenheit to Celsius` & `Celsi
 
 ## Screenshots
 
-[User Interface](https://user-images.githubusercontent.com/88721218/230589191-40ff3b81-6db8-4b1e-999b-08b9db400b24.png)
+![User Interface](https://user-images.githubusercontent.com/88721218/230589191-40ff3b81-6db8-4b1e-999b-08b9db400b24.png)
 
 
 ## YouTube Channel
