@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="box" id="celtofar">
+            <label for="" class="label">Celsius To Fahrenheit</label>
+            <input type="number" class="input" id="cel" placeholder="°C">
+            <p id="result1"></p>
+            <div>
+                <button class="btn" type="button" id="convert" onclick="celtofar()">Convert</button>
+                <button class="btn" type="button" id="reset" onclick="reset1()">Reset</button>
+            </div>
+            <button type="button" class="btn" id="exchange" onclick="exchange1()"><i class="fa-solid fa-right-left"></i></button>
+        </div>
+        <div class="box" id="fartocel">
+            <label for="" class="label">Fahrenheit To Celsius</label>
+            <input type="number" class="input" id="far" placeholder="°F">
+            <p id="result2"></p>
+            <div>
+                <button class="btn" type="button" id="convert" onclick="fartocel()">Convert</button>
+                <button class="btn" type="button" id="reset" onclick="reset2()">Reset</button>
+            </div>
+            <button type="button" class="btn" id="exchange" onclick="exchange2()"><i class="fa-solid fa-right-left"></i></i></button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/341ec05007.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
