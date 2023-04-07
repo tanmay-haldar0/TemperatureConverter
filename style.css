@@ -72,14 +72,25 @@
     transition: ease-in-out;
 }
 
-#exchange{
+#exchange {
     margin-top: 0;
     padding: 7px;
     width: 50px;
 }
 
-#result1, #result2{
+#result1,
+#result2 {
     font-size: large;
     font-weight: bold;
     color: white;
+}
+
+.watermark {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    font-size: 12px;
+    opacity: 0.8;
+    z-index: 1000;
 }
